@@ -8,18 +8,24 @@ This project runs with Laravel version 8.0.
 
 Assuming you've already installed on your machine: PHP (>= 8.0.0), [Laravel](https://laravel.com), [Composer](https://getcomposer.org).
 
-# install dependencies
+# Install dependencies
 
+```bash
 composer install
+```
 
 # create .env file and generate the application key
 
+```bash
 cp .env.example .env
 php artisan key:generate
+```
 
 # To run the command :
 
+```bash
 php artisan app:accept-number <number>
+```
 
 ## Licence
 
